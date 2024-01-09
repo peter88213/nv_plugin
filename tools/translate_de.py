@@ -1,7 +1,7 @@
 """Generate German translation files for GNU gettext.
 
 - Update the project's 'de.po' translation file.
-- Generate the language specific 'pywriter.mo' dictionary.
+- Generate the language specific 'nv_plugin.mo' dictionary.
 
 Usage: 
 translate_de.py

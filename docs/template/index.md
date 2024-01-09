@@ -1,6 +1,6 @@
 # noveltree_plugin
 
-The [novelyst](https://peter88213.github.io/novelyst/) Python program helps authors organize novels.  
+The [noveltree](https://peter88213.github.io/noveltree/) Python program helps authors organize novels.  
 
 *noveltree_plugin* is a plugin providing . 
 
@@ -8,7 +8,7 @@ The [novelyst](https://peter88213.github.io/novelyst/) Python program helps auth
 
 ## Requirements
 
-- [novelyst](https://peter88213.github.io/novelyst/) version 4.28+
+- [noveltree](https://peter88213.github.io/noveltree/) version 4.28+
 
 ## Download and install
 

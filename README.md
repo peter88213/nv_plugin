@@ -1,6 +1,6 @@
 # noveltree_plugin
 
-A plugin for [novelyst](https://peter88213.github.io/novelyst)
+A plugin for [noveltree](https://peter88213.github.io/noveltree)
 
 For more information, see the [project homepage](https://peter88213.github.io/noveltree_plugin) with description and download instructions.
 

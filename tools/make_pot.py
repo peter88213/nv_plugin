@@ -5,7 +5,7 @@ License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
 import sys
-import build_noveltree_plugin as build_plugin
+import build_nv_plugin as build_plugin
 sys.path.insert(0, f'{os.getcwd()}/../../novxlib/src')
 import pgettext
 

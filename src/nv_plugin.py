@@ -1,4 +1,4 @@
-"""Plugin template for novelyst.
+"""Plugin template for noveltree.
 
 Requires Python 3.6+
 Copyright (c) 2024 Peter Triesberger

@@ -2,13 +2,13 @@
 
 --- 
 
-A [novelyst](https://peter88213.github.io/novelyst/) plugin. 
+A [noveltree](https://peter88213.github.io/noveltree/) plugin. 
 
 ---
 
 # Installation
 
-If [novelyst](https://peter88213.github.io/novelyst/) is installed, the setup script auto-installs the *noveltree_plugin* plugin in the *novelyst* plugin directory.
+If [noveltree](https://peter88213.github.io/noveltree/) is installed, the setup script auto-installs the *noveltree_plugin* plugin in the *noveltree* plugin directory.
 
 
 ---

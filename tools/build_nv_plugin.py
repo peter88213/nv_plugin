@@ -1,7 +1,7 @@
 """Build a noveltree_plugin plugin.
         
 In order to distribute a single script without dependencies, 
-this script "inlines" all modules imported from the pywriter package.
+this script "inlines" all modules imported from the nvoxlib package.
 
 The novxlib library (see https://github.com/peter88213/novxlib)
 must be located on the same directory level as the noveltree_plugin project. 
