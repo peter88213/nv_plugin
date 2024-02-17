@@ -13,6 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 
-msgid "noveltree_plugin Online help"
-msgstr "noveltree_plugin Online-Hilfe"
+msgid "nv_plugin Online help"
+msgstr "nv_plugin Online-Hilfe"
 

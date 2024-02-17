@@ -2,7 +2,7 @@
 
 Requires Python 3.6+
 Copyright (c) 2024 Peter Triesberger
-For further information see https://github.com/peter88213/noveltree_plugin
+For further information see https://github.com/peter88213/nv_plugin
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 This program is free software: you can redistribute it and/or modify
@@ -31,7 +31,7 @@ except:
     # Fallback for old Windows versions.
     CURRENT_LANGUAGE = locale.getdefaultlocale()[0][:2]
 try:
-    t = gettext.translation('noveltree_plugin', LOCALE_PATH, languages=[CURRENT_LANGUAGE])
+    t = gettext.translation('nv_plugin', LOCALE_PATH, languages=[CURRENT_LANGUAGE])
     _ = t.gettext
 except:
 
@@ -56,8 +56,8 @@ class Plugin(PluginBase):
     VERSION = '@release'
     NOVELTREE_API = '1.0'
     DESCRIPTION = 'Plugin template'
-    URL = 'https://peter88213.github.io/noveltree_plugin'
-    _HELP_URL = 'https://peter88213.github.io/noveltree_plugin/usage'
+    URL = 'https://peter88213.github.io/nv_plugin'
+    _HELP_URL = 'https://peter88213.github.io/nv_plugin/usage'
 
     def install(self, model, view, controller, prefs):
         """Install the plugin.
@@ -73,5 +73,5 @@ class Plugin(PluginBase):
         self._ctrl = controller
 
         # Add an entry to the Help menu.
-        self._ui.helpMenu.add_command(label=_('noveltree_plugin Online help'), command=lambda: webbrowser.open(self._HELP_URL))
+        self._ui.helpMenu.add_command(label=_('nv_plugin Online help'), command=lambda: webbrowser.open(self._HELP_URL))
 

@@ -14,7 +14,7 @@ File structure:
 │   └── src/
 │       ├── translations.py
 │       └── msgfmt.py
-└── noveltree_plugin/
+└── nv_plugin/
     ├── src/ 
     ├── tools/ 
     │   └── translate_de.py
@@ -27,7 +27,7 @@ File structure:
                   └─ nv_plugin.mo
     
 Copyright (c) 2024 Peter Triesberger
-For further information see https://github.com/peter88213/noveltree_plugin
+For further information see https://github.com/peter88213/nv_plugin
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os

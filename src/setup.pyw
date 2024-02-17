@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Install the noveltree_plugin plugin. 
+"""Install the nv_plugin plugin. 
 
 Version @release
 
 Copyright (c) 2024 Peter Triesberger
-For further information see https://github.com/peter88213/noveltree_plugin
+For further information see https://github.com/peter88213/nv_plugin
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
@@ -18,7 +18,7 @@ except ModuleNotFoundError:
     print('The tkinter module is missing. Please install the tk support package for your python3 version.')
     sys.exit(1)
 
-PLUGIN = 'noveltree_plugin.py'
+PLUGIN = 'nv_plugin.py'
 VERSION = ' @release'
 
 root = Tk()

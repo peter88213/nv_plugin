@@ -14,5 +14,5 @@ msgstr ""
 "Generated-By: novxlib pgettext.py 0.3\n"
 
 
-msgid "noveltree_plugin Online help"
+msgid "nv_plugin Online help"
 msgstr ""

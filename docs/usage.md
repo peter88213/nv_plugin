@@ -1,4 +1,4 @@
-[Project homepage](https://peter88213.github.io/noveltree_plugin) > Instructions for use
+[Project homepage](https://peter88213.github.io/nv_plugin) > Instructions for use
 
 --- 
 
@@ -8,7 +8,7 @@ A [noveltree](https://peter88213.github.io/noveltree/) plugin.
 
 # Installation
 
-If [noveltree](https://peter88213.github.io/noveltree/) is installed, the setup script auto-installs the *noveltree_plugin* plugin in the *noveltree* plugin directory.
+If [noveltree](https://peter88213.github.io/noveltree/) is installed, the setup script auto-installs the *nv_plugin* plugin in the *noveltree* plugin directory.
 
 
 ---
@@ -19,6 +19,6 @@ If [noveltree](https://peter88213.github.io/noveltree/) is installed, the setup 
 
 # License
 
-This is Open Source software, and the *noveltree_plugin* plugin is licensed under GPLv3. See the
+This is Open Source software, and the *nv_plugin* plugin is licensed under GPLv3. See the
 [GNU General Public License website](https://www.gnu.org/licenses/gpl-3.0.en.html) for more
-details, or consult the [LICENSE](https://github.com/peter88213/noveltree_plugin/blob/main/LICENSE) file.
+details, or consult the [LICENSE](https://github.com/peter88213/nv_plugin/blob/main/LICENSE) file.
