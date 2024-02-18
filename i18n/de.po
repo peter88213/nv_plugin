@@ -13,6 +13,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 
+msgid "nvhelp-en"
+msgstr "nvhelp-en"
+
 msgid "nv_plugin Online help"
 msgstr "nv_plugin Online-Hilfe"
 

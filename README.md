@@ -2,7 +2,7 @@
 
 A plugin for [noveltree](https://peter88213.github.io/noveltree)
 
-For more information, see the [project homepage](https://peter88213.github.io/nv_plugin) with description and download instructions.
+For more information, see the [project homepage](https://github.com/peter88213/nv_plugin) with description and download instructions.
 
 ## License
 

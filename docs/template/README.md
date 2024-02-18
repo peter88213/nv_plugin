@@ -1,14 +1,14 @@
 # nv_plugin
 
-The [noveltree](https://peter88213.github.io/noveltree/) Python program helps authors organize novels.  
+The [noveltree](https://github.com/peter88213/noveltree/) Python program helps authors organize novels.  
 
 *nv_plugin* is a plugin providing . 
 
-![Screenshot](Screenshots/screen01.png)
+![Screenshot](docs/Screenshots/screen01.png)
 
 ## Requirements
 
-- [noveltree](https://peter88213.github.io/noveltree/) version 4.28+
+- [noveltree](https://github.com/peter88213/noveltree/) version 4.28+
 
 ## Download and install
 
@@ -19,11 +19,11 @@ The [noveltree](https://peter88213.github.io/noveltree/) Python program helps au
 
 ---
 
-[Changelog](changelog)
+[Changelog](docs/changelog.md)
 
 ## Usage
 
-See the [instructions for use](usage)
+See the [instructions for use](docs/usage.md)
 
 ---
 

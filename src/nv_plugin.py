@@ -54,10 +54,10 @@ class Plugin(PluginBase):
         isRejected: Boolean --  Rejection flag.
     """
     VERSION = '@release'
-    NOVELTREE_API = '1.0'
+    NOVELTREE_API = '1.8'
     DESCRIPTION = 'Plugin template'
-    URL = 'https://peter88213.github.io/nv_plugin'
-    _HELP_URL = 'https://peter88213.github.io/nv_plugin/usage'
+    URL = 'https://github.com/peter88213/nv_plugin'
+    _HELP_URL = f'https://peter88213.github.io/{_("nvhelp-en")}/nv_plugin/usage'
 
     def install(self, model, view, controller, prefs):
         """Install the plugin.

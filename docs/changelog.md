@@ -1,4 +1,4 @@
-[Project home page](index) > Changelog
+[Project home page](../) > Changelog
 
 ------------------------------------------------------------------------
 
@@ -9,4 +9,4 @@
 
 - Release under the GPLv3 license.
 
-Compatibility: noveltree v1.0 API
+Compatibility: noveltree v1.8 API
