@@ -1,6 +1,6 @@
 # nv_plugin
 
-A plugin for [noveltree](https://peter88213.github.io/noveltree)
+A plugin for [noveltree](https://github.com/peter88213/noveltree)
 
 For more information, see the [project homepage](https://github.com/peter88213/nv_plugin) with description and download instructions.
 
