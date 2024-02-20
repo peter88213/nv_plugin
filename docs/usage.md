@@ -2,13 +2,13 @@
 
 --- 
 
-A [noveltree](https://github.com/peter88213/noveltree/) plugin. 
+A [novelibre](https://github.com/peter88213/novelibre/) plugin. 
 
 ---
 
 # Installation
 
-If [noveltree](https://github.com/peter88213/noveltree/) is installed, the setup script auto-installs the *nv_plugin* plugin in the *noveltree* plugin directory.
+If [novelibre](https://github.com/peter88213/novelibre/) is installed, the setup script auto-installs the *nv_plugin* plugin in the *novelibre* plugin directory.
 
 
 ---

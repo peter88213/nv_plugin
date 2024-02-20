@@ -1,4 +1,4 @@
-"""Plugin template for noveltree.
+"""Plugin template for novelibre.
 
 Requires Python 3.6+
 Copyright (c) 2024 Peter Triesberger
@@ -45,7 +45,7 @@ class Plugin(PluginBase):
     Public class constants:
         VERSION: str -- Version string.
         API_VERSION: str -- API compatibility indicator.
-        DESCRIPTION: str -- Description to be diplayed in the noveltree plugin list.
+        DESCRIPTION: str -- Description to be diplayed in the novelibre plugin list.
         URL: str -- Plugin project homepage URL.
 
     Public instance variables:

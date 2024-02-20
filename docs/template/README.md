@@ -1,6 +1,6 @@
 # nv_plugin
 
-The [noveltree](https://github.com/peter88213/noveltree/) Python program helps authors organize novels.  
+The [novelibre](https://github.com/peter88213/novelibre/) Python program helps authors organize novels.  
 
 *nv_plugin* is a plugin providing . 
 
@@ -8,7 +8,7 @@ The [noveltree](https://github.com/peter88213/noveltree/) Python program helps a
 
 ## Requirements
 
-- [noveltree](https://github.com/peter88213/noveltree/) version 4.28+
+- [novelibre](https://github.com/peter88213/novelibre/) version 4.28+
 
 ## Download and install
 
