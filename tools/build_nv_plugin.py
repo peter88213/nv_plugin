@@ -25,7 +25,7 @@ os.makedirs(BUILD, exist_ok=True)
 
 def main():
     inliner.run(SOURCE_FILE, TARGET_FILE, 'nvpluginlib', '../../nv_plugin/src/')
-    inliner.run(TARGET_FILE, TARGET_FILE, 'noveltreelib', '../../noveltree/src/')
+    inliner.run(TARGET_FILE, TARGET_FILE, 'nvlib', '../../noveltree/src/')
     inliner.run(TARGET_FILE, TARGET_FILE, 'novxlib', '../../novxlib/src/')
     print('Done.')
 

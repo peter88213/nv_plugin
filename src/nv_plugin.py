@@ -21,7 +21,7 @@ import tkinter as tk
 import locale
 import gettext
 import webbrowser
-from noveltreelib.plugin.plugin_base import PluginBase
+from nvlib.plugin.plugin_base import PluginBase
 
 # Initialize localization.
 LOCALE_PATH = f'{os.path.dirname(sys.argv[0])}/locale/'
@@ -44,7 +44,7 @@ class Plugin(PluginBase):
     
     Public class constants:
         VERSION: str -- Version string.
-        NOVELTREE_API: str -- API compatibility indicator.
+        API_VERSION: str -- API compatibility indicator.
         DESCRIPTION: str -- Description to be diplayed in the noveltree plugin list.
         URL: str -- Plugin project homepage URL.
 
@@ -54,7 +54,7 @@ class Plugin(PluginBase):
         isRejected: Boolean --  Rejection flag.
     """
     VERSION = '@release'
-    NOVELTREE_API = '1.8'
+    API_VERSION = '2.0'
     DESCRIPTION = 'Plugin template'
     URL = 'https://github.com/peter88213/nv_plugin'
     _HELP_URL = f'https://peter88213.github.io/{_("nvhelp-en")}/nv_plugin/usage'
