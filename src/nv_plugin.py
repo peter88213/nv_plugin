@@ -54,7 +54,7 @@ class Plugin(PluginBase):
         isRejected: Boolean --  Rejection flag.
     """
     VERSION = '@release'
-    API_VERSION = '2.0'
+    API_VERSION = '2.1'
     DESCRIPTION = 'Plugin template'
     URL = 'https://github.com/peter88213/nv_plugin'
     _HELP_URL = f'https://peter88213.github.io/{_("nvhelp-en")}/nv_plugin/usage'
