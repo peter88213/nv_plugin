@@ -14,7 +14,7 @@ msgstr ""
 
 
 msgid "nvhelp-en"
-msgstr "nvhelp-en"
+msgstr "nvhelp-de"
 
 msgid "nv_plugin Online help"
 msgstr "nv_plugin Online-Hilfe"
