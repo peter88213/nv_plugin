@@ -9,4 +9,4 @@
 
 - Release under the GPLv3 license.
 
-Compatibility: noveltree v1.8 API
+Compatibility: novelibre v4.1 API
