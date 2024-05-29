@@ -57,7 +57,7 @@ class Plugin(PluginBase):
     API_VERSION = '4.0'
     DESCRIPTION = 'Plugin template'
     URL = 'https://github.com/peter88213/nv_plugin'
-    _HELP_URL = f'https://peter88213.github.io/{_("nvhelp-en")}/nv_plugin/usage'
+    _HELP_URL = f'https://peter88213.github.io/{_("nvhelp-en")}/nv_plugin/'
 
     def install(self, model, view, controller, prefs):
         """Install the plugin.
