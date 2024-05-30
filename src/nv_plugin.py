@@ -40,19 +40,7 @@ except:
 
 
 class Plugin(PluginBase):
-    """Template plugin class.
-    
-    Public class constants:
-        VERSION: str -- Version string.
-        API_VERSION: str -- API compatibility indicator.
-        DESCRIPTION: str -- Description to be diplayed in the novelibre plugin list.
-        URL: str -- Plugin project homepage URL.
-
-    Public instance variables:
-        filePath: str -- Location of the installed plugin.
-        isActive: Boolean -- Acceptance flag.
-        isRejected: Boolean --  Rejection flag.
-    """
+    """Template plugin class."""
     VERSION = '@release'
     API_VERSION = '4.0'
     DESCRIPTION = 'Plugin template'
@@ -67,6 +55,8 @@ class Plugin(PluginBase):
             view -- reference to the main view instance of the application.
             controller -- reference to the main controller instance of the application.
             prefs -- reference to the application's global dictionary with settings and options.
+        
+        Overrides the superclass method.
         """
         self._mdl = model
         self._ui = view
