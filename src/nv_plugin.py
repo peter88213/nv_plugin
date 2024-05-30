@@ -42,7 +42,7 @@ except:
 class Plugin(PluginBase):
     """Template plugin class."""
     VERSION = '@release'
-    API_VERSION = '4.0'
+    API_VERSION = '4.3'
     DESCRIPTION = 'Plugin template'
     URL = 'https://github.com/peter88213/nv_plugin'
     _HELP_URL = f'https://peter88213.github.io/{_("nvhelp-en")}/nv_plugin/'
