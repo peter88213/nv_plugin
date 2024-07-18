@@ -15,28 +15,11 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 """
-import sys
-import os
-import tkinter as tk
-import locale
-import gettext
 import webbrowser
+
 from nvlib.plugin.plugin_base import PluginBase
-
-# Initialize localization.
-LOCALE_PATH = f'{os.path.dirname(sys.argv[0])}/locale/'
-try:
-    CURRENT_LANGUAGE = locale.getlocale()[0][:2]
-except:
-    # Fallback for old Windows versions.
-    CURRENT_LANGUAGE = locale.getdefaultlocale()[0][:2]
-try:
-    t = gettext.translation('nv_plugin', LOCALE_PATH, languages=[CURRENT_LANGUAGE])
-    _ = t.gettext
-except:
-
-    def _(message):
-        return message
+from nvpluginlib.nvplugin_globals import _
+import tkinter as tk
 
 
 class Plugin(PluginBase):
