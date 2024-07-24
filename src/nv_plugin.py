@@ -19,16 +19,16 @@ import webbrowser
 
 from nvlib.plugin.plugin_base import PluginBase
 from nvpluginlib.nvplugin_globals import _
+from nvpluginlib.nvplugin_globals import open_help
 import tkinter as tk
 
 
 class Plugin(PluginBase):
     """Template plugin class."""
     VERSION = '@release'
-    API_VERSION = '4.4'
+    API_VERSION = '4.6'
     DESCRIPTION = 'Plugin template'
     URL = 'https://github.com/peter88213/nv_plugin'
-    _HELP_URL = f'https://peter88213.github.io/{_("nvhelp-en")}/nv_plugin/'
 
     def install(self, model, view, controller, prefs=None):
         """Install the plugin.
@@ -48,5 +48,5 @@ class Plugin(PluginBase):
         self._ctrl = controller
 
         # Add an entry to the Help menu.
-        self._ui.helpMenu.add_command(label=_('nv_plugin Online help'), command=lambda: webbrowser.open(self._HELP_URL))
+        self._ui.helpMenu.add_command(label=_('nv_plugin Online help'), command=open_help)
 

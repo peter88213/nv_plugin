@@ -8,7 +8,7 @@ The [novelibre](https://github.com/peter88213/novelibre/) Python program helps a
 
 ## Requirements
 
-- [novelibre](https://github.com/peter88213/novelibre/) version 4.4+
+- [novelibre](https://github.com/peter88213/novelibre/) version 4.6+
 
 ## Download and install
 
