@@ -26,7 +26,7 @@ import tkinter as tk
 class Plugin(PluginBase):
     """Template plugin class."""
     VERSION = '@release'
-    API_VERSION = '4.6'
+    API_VERSION = '4.9'
     DESCRIPTION = 'Plugin template'
     URL = 'https://github.com/peter88213/nv_plugin'
 

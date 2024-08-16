@@ -5,8 +5,8 @@
 ## Changelog
 
 
-### v1.0.0
+### Version 1.0.0
 
 - Release under the GPLv3 license.
 
-Compatibility: novelibre v4.6 API
+Compatibility: novelibre version 4.9 API
