@@ -8,6 +8,7 @@ import gettext
 import locale
 import os
 import sys
+import webbrowser
 
 # Initialize localization.
 LOCALE_PATH = f'{os.path.dirname(sys.argv[0])}/locale/'

@@ -15,18 +15,15 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 """
-import webbrowser
-
 from nvlib.plugin.plugin_base import PluginBase
 from nvpluginlib.nvplugin_globals import _
 from nvpluginlib.nvplugin_globals import open_help
-import tkinter as tk
 
 
 class Plugin(PluginBase):
     """Template plugin class."""
     VERSION = '@release'
-    API_VERSION = '4.9'
+    API_VERSION = '4.11'
     DESCRIPTION = 'Plugin template'
     URL = 'https://github.com/peter88213/nv_plugin'
 
