@@ -27,7 +27,7 @@ class Plugin(PluginBase):
     DESCRIPTION = 'Plugin template'
     URL = 'https://github.com/peter88213/nv_plugin'
 
-    def install(self, model, view, controller, prefs=None):
+    def install(self, model, view, controller):
         """Install the plugin.
         
         Positional arguments:
