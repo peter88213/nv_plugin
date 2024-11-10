@@ -23,7 +23,7 @@ from nvpluginlib.nvplugin_globals import open_help
 class Plugin(PluginBase):
     """Template plugin class."""
     VERSION = '@release'
-    API_VERSION = '4.11'
+    API_VERSION = '5.0'
     DESCRIPTION = 'Plugin template'
     URL = 'https://github.com/peter88213/nv_plugin'
 
