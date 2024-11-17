@@ -38,11 +38,9 @@ class Plugin(PluginBase):
         Optional arguments:
             prefs -- deprecated. Please use controller.get_preferences() instead.
         
-        Overrides the superclass method.
+        Extends the superclass method.
         """
-        self._mdl = model
-        self._ui = view
-        self._ctrl = controller
+        super().install(model, view, controller)
 
         # Add an entry to the Help menu.
         self._ui.helpMenu.add_command(label=_('nv_plugin Online help'), command=open_help)
