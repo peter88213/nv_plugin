@@ -15,9 +15,10 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 """
+import webbrowser
+
 from nvlib.controller.plugin.plugin_base import PluginBase
 from nvplugin.nvplugin_locale import _
-from nvplugin.nvplugin_help import NvpluginHelp
 
 
 class Plugin(PluginBase):
@@ -26,6 +27,8 @@ class Plugin(PluginBase):
     API_VERSION = '5.0'
     DESCRIPTION = 'Plugin template'
     URL = 'https://github.com/peter88213/nv_plugin'
+
+    HELP_URL = 'https://github.com/peter88213/nv_plugin/tree/main/docs/nv_plugin'
 
     def install(self, model, view, controller):
         """Install the plugin.
@@ -40,5 +43,8 @@ class Plugin(PluginBase):
         super().install(model, view, controller)
 
         # Add an entry to the Help menu.
-        self._ui.helpMenu.add_command(label=_('nv_plugin Online help'), command=NvpluginHelp.open_help_page)
+        self._ui.helpMenu.add_command(label=_('nv_plugin Online help'), command=self.open_help_page)
+
+    def open_help_page(self):
+        webbrowser.open(self.HELP_URL)
 
