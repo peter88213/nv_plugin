@@ -24,5 +24,3 @@ except:
     def _(message):
         return message
 
-HELP_URL = 'https://github.com/peter88213/nv_plugin/tree/main/docs/nv_plugin'
-
