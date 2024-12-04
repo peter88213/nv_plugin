@@ -1,4 +1,4 @@
-"""Provide global variables and functions.
+"""Locale settings for nv_plugin.
 
 Copyright (c) 2024 Peter Triesberger
 For further information see https://github.com/peter88213/nv_plugin
@@ -8,7 +8,6 @@ import gettext
 import locale
 import os
 import sys
-import webbrowser
 
 # Initialize localization.
 LOCALE_PATH = f'{os.path.dirname(sys.argv[0])}/locale/'
@@ -27,7 +26,3 @@ except:
 
 HELP_URL = 'https://github.com/peter88213/nv_plugin/tree/main/docs/nv_plugin'
 
-
-def open_help(event=None):
-    """Show the online help page specified by HELP_URL."""
-    webbrowser.open(HELP_URL)

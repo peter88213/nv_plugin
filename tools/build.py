@@ -18,7 +18,7 @@ VERSION = '0.1.0'
 class PluginBuilder(PackageBuilder):
 
     PRJ_NAME = 'nv_plugin'
-    LOCAL_LIB = 'nvpluginlib'
+    LOCAL_LIB = 'nvplugin'
     GERMAN_TRANSLATION = False
 
 

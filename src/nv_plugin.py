@@ -16,8 +16,8 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 """
 from nvlib.controller.plugin.plugin_base import PluginBase
-from nvpluginlib.nvplugin_globals import _
-from nvpluginlib.nvplugin_globals import open_help
+from nvplugin.nvplugin_locale import _
+from nvplugin.nvplugin_help import NvpluginHelp
 
 
 class Plugin(PluginBase):
@@ -35,13 +35,10 @@ class Plugin(PluginBase):
             view -- reference to the main view instance of the application.
             controller -- reference to the main controller instance of the application.
 
-        Optional arguments:
-            prefs -- deprecated. Please use controller.get_preferences() instead.
-        
         Extends the superclass method.
         """
         super().install(model, view, controller)
 
         # Add an entry to the Help menu.
-        self._ui.helpMenu.add_command(label=_('nv_plugin Online help'), command=open_help)
+        self._ui.helpMenu.add_command(label=_('nv_plugin Online help'), command=NvpluginHelp.open_help_page)
 
