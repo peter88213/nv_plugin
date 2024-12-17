@@ -43,8 +43,8 @@ class Plugin(PluginBase):
         super().install(model, view, controller)
 
         # Add an entry to the Help menu.
-        self._ui.helpMenu.add_command(label=_('nv_plugin Online help'), command=self.open_help_page)
+        self._ui.helpMenu.add_command(label=_('nv_plugin Online help'), command=self.open_help)
 
-    def open_help_page(self):
+    def open_help(self):
         webbrowser.open(self.HELP_URL)
 
