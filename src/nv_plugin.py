@@ -17,8 +17,9 @@ GNU General Public License for more details.
 """
 import webbrowser
 
-from nvlib.controller.plugin.plugin_base import PluginBase
 from nvplugin.nvplugin_locale import _
+# this should be the first import
+from nvlib.controller.plugin.plugin_base import PluginBase
 
 
 class Plugin(PluginBase):
