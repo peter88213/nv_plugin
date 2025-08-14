@@ -14,10 +14,10 @@ The [novelibre](https://github.com/peter88213/novelibre/) Python program helps a
 
 ### Default: Executable Python zip archive
 
-Download the latest release [nv_plugin_v0.99.0.pyzw](https://github.com/peter88213/nv_plugin/raw/main/dist/nv_plugin_v0.99.0.pyzw)
+Download the latest release [nv_plugin_v0.99.0.pyz](https://github.com/peter88213/nv_plugin/raw/main/dist/nv_plugin_v0.99.0.pyz)
 
-- Launch *nv_plugin_v0.99.0.pyzw* by double-clicking (Windows/Linux desktop),
-- or execute `python nv_plugin_v0.99.0.pyzw` (Windows), resp. `python3 nv_plugin_v0.99.0.pyzw` (Linux) on the command line.
+- Launch *nv_plugin_v0.99.0.pyz* by double-clicking (Windows/Linux desktop),
+- or execute `python nv_plugin_v0.99.0.pyz` (Windows), resp. `python3 nv_plugin_v0.99.0.pyz` (Linux) on the command line.
 
 #### Important
 
