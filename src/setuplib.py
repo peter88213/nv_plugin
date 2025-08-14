@@ -47,7 +47,7 @@ def main(zipped=True):
     scriptDir = os.path.dirname(scriptPath)
     os.chdir(scriptDir)
 
-    print(f'*** Installing {PLUGIN}{VERSION} ***\n')
+    print(f'*** Installing {PLUGIN}{VERSION} ***')
     homePath = str(Path.home()).replace('\\', '/')
     applicationDir = f'{homePath}/.novx'
     if os.path.isdir(applicationDir):
