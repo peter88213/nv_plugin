@@ -16,13 +16,13 @@ The [novelibre](https://github.com/peter88213/novelibre/) Python program helps a
 
 Download the latest release [nv_plugin_v0.99.0.pyz](https://github.com/peter88213/nv_plugin/raw/main/dist/nv_plugin_v0.99.0.pyz)
 
-- Launch *nv_plugin_v0.99.0.pyz* by double-clicking (Windows/Linux desktop),
+- Launch *nv_plugin_v0.99.0.pyz* by double-clicking (Windows desktop),
 - or execute `python nv_plugin_v0.99.0.pyz` (Windows), resp. `python3 nv_plugin_v0.99.0.pyz` (Linux) on the command line.
 
 #### Important
 
 Many web browsers recognize the download as an executable file and offer to open it immediately. 
-This starts the installation.
+This starts the installation under Windows.
 
 However, depending on your security settings, your browser may 
 initially  refuse  to download the executable file. 
