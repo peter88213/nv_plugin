@@ -14,10 +14,10 @@ The [novelibre](https://github.com/peter88213/novelibre/) Python program helps a
 
 ### Default: Executable Python zip archive
 
-Download the latest release [nv_plugin_v0.99.0.pyz](https://github.com/peter88213/nv_plugin/raw/main/dist/nv_plugin_v0.99.0.pyz)
+Download the latest release [nv_plugin_v$Version.pyz](https://github.com/peter88213/nv_plugin/raw/main/dist/nv_plugin_v$Version.pyz) ($PyzSize)
 
-- Launch *nv_plugin_v0.99.0.pyz* by double-clicking (Windows desktop),
-- or execute `python nv_plugin_v0.99.0.pyz` (Windows), resp. `python3 nv_plugin_v0.99.0.pyz` (Linux) on the command line.
+- Launch *nv_plugin_v$Version.pyz* by double-clicking (Windows desktop),
+- or execute `python nv_plugin_v$Version.pyz` (Windows), resp. `python3 nv_plugin_v$Version.pyz` (Linux) on the command line.
 
 > [!IMPORTANT]
 > Many web browsers recognize the download as an executable file and offer to open it immediately. 
@@ -32,9 +32,9 @@ Download the latest release [nv_plugin_v0.99.0.pyz](https://github.com/peter8821
 
 ### Alternative: Zip file
 
-The package is also available in zip format: [nv_plugin_v0.99.0.zip](https://github.com/peter88213/nv_plugin/raw/main/dist/nv_plugin_v0.99.0.zip)
+The package is also available in zip format: [nv_plugin_v$Version.zip](https://github.com/peter88213/nv_plugin/raw/main/dist/nv_plugin_v$Version.zip) ($ZipSize)
 
-- Extract the *nv_plugin_v0.99.0* folder from the downloaded zipfile "nv_plugin_v0.99.0.zip".
+- Extract the *nv_plugin_v$Version* folder from the downloaded zipfile "nv_plugin_v$Version.zip".
 - Move into this new folder and launch *setup.py* by double-clicking (Windows/Linux desktop), 
 - or execute `python setup.py` (Windows), resp. `python3 setup.py` (Linux) on the command line.
 
