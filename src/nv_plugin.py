@@ -15,8 +15,6 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 """
-import webbrowser
-
 from nvplugin.nvplugin_locale import _
 # this should be the first import
 from nvlib.controller.plugin.plugin_base import PluginBase
@@ -25,11 +23,9 @@ from nvlib.controller.plugin.plugin_base import PluginBase
 class Plugin(PluginBase):
     """Template plugin class."""
     VERSION = '@release'
-    API_VERSION = '5.0'
+    API_VERSION = '5.63'
     DESCRIPTION = 'Plugin template'
     URL = 'https://github.com/peter88213/nv_plugin'
-
-    HELP_URL = 'https://github.com/peter88213/nv_plugin/tree/main/docs/nv_plugin'
 
     def install(self, model, view, controller):
         """Install the plugin at runtime.
@@ -43,15 +39,18 @@ class Plugin(PluginBase):
         """
         super().install(model, view, controller)
 
-        #--- Configure the main menu.
+        #--- Configure the user interface.
+
+        def open_help():
+            self._ctrl.helpService.open_help_page(
+                _('help'),
+                site='https://peter88213.github.io/nv_plugin'
+            )
 
         # Add an entry to the Help menu.
-        label = _('nv_plugin Online help')
+        label = _('nv_plugin plugin help')
         self._ui.helpMenu.add_command(
             label=label,
-            command=self.open_help,
+            command=open_help,
         )
-
-    def open_help(self):
-        webbrowser.open(self.HELP_URL)
 
