@@ -21,11 +21,13 @@ from nvlib.controller.plugin.plugin_base import PluginBase
 
 
 class Plugin(PluginBase):
-    """Template plugin class."""
+    """plugin class."""
     VERSION = '@release'
     API_VERSION = '5.63'
-    DESCRIPTION = 'Plugin template'
+    DESCRIPTION = 'Plugin'
     URL = 'https://github.com/peter88213/nv_plugin'
+    HELP_SITE = 'https://peter88213.github.io/nv_plugin'
+    HELP_PAGE = _('help')
 
     def install(self, model, view, controller):
         """Install the plugin at runtime.
@@ -41,16 +43,5 @@ class Plugin(PluginBase):
 
         #--- Configure the user interface.
 
-        def open_help():
-            self._ctrl.helpService.open_help_page(
-                _('help'),
-                site='https://peter88213.github.io/nv_plugin'
-            )
-
-        # Add an entry to the Help menu.
-        label = _('nv_plugin plugin help')
-        self._ui.helpMenu.add_command(
-            label=label,
-            command=open_help,
-        )
+        self._add_help_menu_entry(_('nv_plugin plugin help'))
 
